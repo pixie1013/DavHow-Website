@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="css/content_valid id.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./css/logo.png">
+    <title>DavHow: Driver's License for Land Transportation </title>
+    <style>
+        .photocont{
+            margin-top: -330px; 
+            margin-left: 5px;
+            position: relative;
+            width: 48%;
+            max-width: 600px;
+            overflow: hidden;}
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .photocont button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+
+        .procedure{height: 1380px;}
+        table {
+            margin-top: 20px;
+        }
+        .location{
+            width: 1154px;
+        }
+        .side-bar{
+            width: 135rem;
+            height: auto;
+            margin-top: 48px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 6.5vh;
+            scrollbar-width: thin;
+            scrollbar-color: #071356 #c8daef;
+        }
+        .side-bar ul li a .icon3 {
+          color: #071356;
+          display: inline-block;
+          margin-left: 42px;
+        }
+    </style>
+</head>
+<body>
+    <section style="font-family: 'Roboto Condensed'">
+        <div class="header" id="navBar">
+            <div class="image-text">
+                <span class="image">
+                    <img src="css/logo.png" alt="DavHow">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name"><a class="dav">DAV</a><a>HOW</a></span>
+                    <span class="slogan2">Help is Here</span>
+                </div>
+            </div>
+            <ul>
+              <li><a href="../Index/about_us.html">About</a></li>
+              <li><a href="../Index/about_us.html#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="container">
+        <div class="side-bar" id="sideBar">
+            <div class="sidebar">
+                <div class="header">
+                    <div class="image-text">
+                        <span class="image">
+                            <img src="logo.png" alt="DavHow">
+                        </span>
+    
+                        <div class="text header-text">
+                            <span class="name">DAVHOW</span>
+                            <span class="slogan">Help is Here</span>
+                        </div>
+                    </div>
+                </div>
+                <!---side bar items-->
+                <ul style="font-family: 'Roboto Condensed'">
+                  <li><a href="../Index/index.html" class="home-toggle">
+                        <span class="icon">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </span>
+                        <span class="item">Home</span>
+                    </a></li>
+                    <li>
+                        <a href="#" class="submenu-toggle" id="documents-toggle">
+                            <span class="icon">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </span>
+                            <span class="item">Documents</span>
+                            <span class="icon3" id="documents-icon-toggle">
+                                <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <ul class="sub-menu" id="documents-sub-menu">
+                            <li>Civil Registry Documents</li>
+                            <li><a href="../documents/Affidavit to Use the Surname of the Father.html" class="sub-item">Affidavit to Use the Surname of the Father</a></li>
+                            <li><a href="../documents/Birth-Certificate.html" class="sub-item">Birth Certificate (PSA)</a></li>
+                            <li><a href="../documents/Certificate of Live Birth.html" class="sub-item">Certificate of Live Birth</a></li>
+                            <li><a href="../documents/CENOMAR.html" class="sub-item">Certificate of No Marriage(CENOMAR)</a></li>
+                            <li><a href="../documents/Death Certificate.html" class="sub-item">Death Certificate</a></li>
+                            <li><a href="../documents/Death Certificate (PSA).html" class="sub-item">Death Certificate (PSA)</a></li>
+                            <li><a href="../documents/Legal Instruments for Legitimation.html" class="sub-item">Legal Instruments for Legitimation</a></li>
+                            <li><a href="../documents/Marriage Certificate.html" class="sub-item">Marriage Certificate</a></li>
+                            <li><a href="../documents/Marriage Certificate (PSA).html" class="sub-item">Marriage Certificate (PSA)</a></li>
+                            <li><a href="../documents/Marriage License.html" class="sub-item">Marriage License</a></li>
+                            <li>Barangay Processed Documents</li>
+                            <li><a href="../documents/Barangay Certificate.html" class="sub-item">Barangay Certificate</a></li>
+                            <li><a href="../documents/Certificate of Indigency.html" class="sub-item">Certificate of Indigency</a></li>
+                            <li><a href="../documents/Residency.html" class="sub-item">Certificate of Residency</a></li>
+                            <li>Tax Related Documents</li>
+                            <li><a href="../documents/Income Tax For Corporations And Partnerships.html">Annual Income Tax For Corporations And Partnerships</a></li>
+                            <li><a href="../documents/Annual Income Tax For Individuals Earning Purely Compensation Income.html">Annual Income Tax for Individuals Earning Purely Compensation Income (Including Non-Business/Non-Profession Related Income)</a></li>
+                            <li><a href="../documents/Annual Income Tax For Individuals, Estates, and Trusts.html">Annual Income Tax For Individuals, Estates, and Trusts</a></li>
+                            <li><a href="../documents/Certificate of Exemption.html" class="sub-item">Certificate of Exemption</a></li>
+                            <li><a href="../documents/CEDULA.html" class="sub-item">Community Tax Certificate (Cedula)</a></li>
+                            <li><a href="../documents/Manual Tax Declaration.html" class="sub-item">Certified True Copy of Tax Declaration</a></li>
+                            <li><a href="../documents/Tax Clearance Certificate.html">Tax Clearance Certificate</a></li>
+                            <li>Business Related Documents</li>
+                            <li><a href="../documents/Issuance of Business Permit.html" class="sub-item">Issuance of Business Permit</a></li>
+                            <li><a href="../documents/Occupational Permit.html" class="sub-item">Occupational Permit</a></li>
+                            <li><a href="../documents/Full Retirement of Business Permit.html" class="sub-item">Full Retirement of Business Permit</a></li>
+                            <li>Criminal Record Clearance</li>
+                            <li><a href="../documents/NBI Clearance.html" class="sub-item">NBI Clearance</a></li>
+                            <li><a href="../documents/Police Clearance.html" class="sub-item">Police Clearance   </a></li>
+                        </ul>
+                  </li>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="submenu-toggle" id="valid-ids-toggle">
+                            <span class="icon">
+                                <i class="fa fa-id-card" aria-hidden="true"></i>
+                            </span>
+                            <span class="item">Valid IDs&nbsp&nbsp&nbsp&nbsp</span>
+                            <span class="icon3" id="valid-ids-icon-toggle">
+                                <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <ul class="sub-menu" id="valid-ids-sub-menu">
+                            <li><a href="IBP ID.html" class="sub-item">Integrated Bar of the Philippines (IBP) Card</a></li>
+                            <li><a href="BARANGAY ID.html" class="sub-item">Barangay ID</a></li>
+                            <li><a href="Drivers-License.html" class="sub-item">Driver’s License from Land Transportation Office (LTO)</a></li>
+                            <li><a href="Firearm_s License.html" class="sub-item">Firearms License from Philippine National Police (PNP)</a></li>
+                            <li><a href="GSIS UMID Card.html" class="sub-item">GSIS UMID Card Government Service Insurance System (GSIS)</a></li>
+                            <li><a href="OWWA ID.html" class="sub-item">Overseas Workers Welfare Administration (OWWA) ID</a></li>
+                            <li><a href="4Ps ID.html" class="sub-item">Pantawid Pamilyang Pilipino Program (4Ps) Card</a></li>
+                            <li><a href="PWD ID.html" class="sub-item">Persons with Disabilities (PWD) ID from Local Government Unit (LGU)</a></li>
+                            <li><a href="PhilHealth ID.html" class="sub-item">PhilHealth ID</a></li>
+                            <li><a href="Passport ID.html" class="sub-item">Philippine Passport from Department of Foreign Affairs</a></li>
+                            <li><a href="PhilSys ID.html" class="sub-item">Philippine System ID</a></li>
+                            <li><a href="POSTAL ID.html" class="sub-item">Postal ID</a></li>
+                            <li><a href="PRC ID.html" class="sub-item">Professional Regulatory Commission (PRC) ID</a></li>
+                            <li><a href="Senior Citizen's ID.html" class="sub-item">Senior Citizen ID from Local Government Unit (LGU)</a></li>
+                            <li><a href="Solo Parent ID.html" class="sub-item">Solo Parent ID</a></li>
+                            <li><a href="SSS UMID ID.html" class="sub-item">SSS UMID Card from Social Security System (SSS)</a></li>
+                            <li><a href="TIN ID.html" class="sub-item">TIN ID</a></li>
+                      </ul>
+                    </li>    
+                </ul>
+            </div>  
+        </div> 
+        <div class="content">
+            <h1>Driver's License for Land Transportation</h1>
+            <p>A driver's license is an identification of who can drive a vehicle in the Philippines. 
+                It has one (1) year of validity from the date of issuance but the renewal may be down on or before the expiry date. 
+                There are three types of driver's licenses, namely the Student Permit, Non-Professional License, and Professional License.
+            </p>
+                <div class="container2">
+                    <div class="requirement">
+                        <h2 style="margin-bottom: 5px; margin-left: -15px;">REQUIREMENTS</h2>
+                        <strong style="margin-left: -15px;">STUDENT LICENSE</strong>
+                        <ul class="text" >
+                            <li>An accomplished <a target="_blank" href="https://lto.gov.ph/wp-content/uploads/2023/09/APL-Form_v3.pdf">Application for Permits and License</a> (APL) Form. The APL Form is available in any of the LTO offices in the Philippines.
+                            </li>
+                            <li> Original and one (1) photocopy of an electronically transmitted medical certificate from an <a href="https://www.listph.com/2021/12/davao-city-lto-accredited-medical-clinics-registered-physicians.html" target="_blank">LTO-accredited medical clinic</a>.</li>
+                            <li> Original and one (1) photocopy of any of the following documents:
+                                <ul style="margin-left: 10px;">
+                                    <li><a href="../documents/Birth-Certificate.html">PSA/NSO Certificate of Birth</a></li>
+                                    <li><a href="PhilSys ID.html">Philippine Identification Card</a></li>
+                                    <li><a href="Passport ID.html">Passport</a></li>
+                                    <li>Local Civil Registry (if PSA is not available)</li>
+                                    <li><a href="../documents/Marriage Certificate (PSA).html">PSA Certificate of Marriage</a></li>
+                                </ul>
+                            </li>
+                            <li>Two scanned copies of any valid ID with photo and signature of the applicant. </li>
+                            <li>Taxpayer's Identification Number (TIN)</li>
+                            <li>Original and one (1) photocopy of the Certificate of Completion of the 15-hours Theoretical Driving Course (TDC) </li>
+                        </ul>
+                        <p style="margin-bottom: 10px;">On the other hand, foreign citizens must be at least eighteen (18) years old and must live in the Philippines for at least one (1) month, and have proof to stay for at least six (6) months. If he/she is naturally born in the Philippines, he/she must present an original and one (1) photocopy of a duly accomplished PSA birth certificate. </p>
+                        <strong style="margin-left: -15px;">NON-PROFESSIONAL LICENSE</strong>
+                        <ul class="text" >
+                            <li>An accomplished Application for Permits and License (APL) Form. The APL Form is available in any of the LTO offices in the Philippines</li>
+                            <li>Original and one (1) photocopy of an electronically transmitted medical certificate from an <a href="https://www.listph.com/2021/12/davao-city-lto-accredited-medical-clinics-registered-physicians.html" target="_blank">LTO-accredited medical clinic</a>.</li>
+                            <li>Original and one (1) photocopy of the Practical Driving Course (PDC) completion certificate.</li>
+                            <li>Valid Student-Driver's Permit</li>
+                            <li>If the applicant is seventeen (17) years old, provide a notarized parent or guardian's consent with a photo of valid government ID and signature:</li>
+                            <li>Taxpayer's Identification Number (TIN)</li>
+                            <li style="margin-bottom: 10px;">A proof of negative drug test result from the Department of Health (DOH) - accredited testing center or government hospital.</li>
+                        </ul>
+                        <strong style="margin-left: -15px;">PROFESSIONAL LICENSE</strong>
+                        <ul class="text">
+                            <li>An accomplished Application for Permits and License (APL) Form. The APL Form is available in any of the LTO offices in the Philippines or you can download a digital copy <a href="https://lto.gov.ph/lto-forms/file/1162-application-for-student-driver-s-permit-driver-s-license-conductor-s-license-apl.html" target="_blank">here</a>.</li>
+                            <li>Original and one (1) photocopy of an electronically transmitted medical certificate from an LTO-accredited medical clinic. Check the list of accredited clinics <a href="https://www.listph.com/2021/12/davao-city-lto-accredited-medical-clinics-registered-physicians.html" target="_blank">here</a>.</li>
+                            <li>Original and one (1) photocopy of the Practical Driving Course (PDC) completion certificate.</li>
+                            <li>Original valid student permit or non-professional driver's license.</li>
+                            <li>Original and one (1) photocopy of PSA Certificate of Birth.</li>
+                            <li>Valid NBI Clearance or Police Clearance.</li>
+                            <li>LTO Client ID (Register <a href="https://portal.lto.gov.ph/ords/f?p=1200:HOME::::::" target="_blank">here</a>).</li>
+                            <li>Taxpayer's Identification Number (TIN) ID, if employed.</li>
+                            <li>A proof of negative drug test result from Department of Health (DOH) - accredited testing center or government hospital.</li>
+                        </ul>
+                        
+                    </div>
+                <div class="procedure">
+                    <h2 style="margin-bottom: 5px; margin-left: -15px;">PROCEDURE</h2>
+                    <ol class="text">
+                        <strong style="margin-left: -15px;">STUDENT LICENSE</strong>
+                        <ol style="margin-bottom: 10px;">
+                            <li>Visit the nearest LTO Branch in Davao City. </li>
+                            <li>Ask for a queue number, and submit an accomplished Application for Permits and License (APL) form and the other requirements once called.</li>
+                            <li>Read the Driver's Road Safety Pledge.</li>
+                            <li>Accomplish the photo and signature capture.</li>
+                            <li>Once approved, proceed to the Cashier to pay the fees, and you will receive your Official Receipt (OR) and Student Permit.</li>
+                        </ol>
+                        <strong style="margin-left: -15px;">NON-PROFESSIONAL LICENSE</strong>
+                        <ol style="margin-bottom: 10px;">
+                            <li>Visit the nearest LTO Branch in Davao City.</li>
+                            <li>Ask for a queue number, and submit an accomplished Application for Permits and License (APL) form and the other requirements once called.</li>
+                            <li>Read the Driver's Road Safety Pledge.</li>
+                            <li>Once approved, proceed to the Cashier to pay the fees.</li>
+                            <li>Take the written examination. In case of failure, they may retake the test the following working day; otherwise, they can proceed to the practical examination.</li>
+                            <li>Take the actual driving test. Suppose the applicant can pass the practical examination. In that case, they may proceed to the Cashier to pay fees and accomplish the required information for the Land Transportation Management System (LTMS).</li>
+                            <li>The applicant will receive an Official Receipt (OR) and Driver's License (DL) card.</li>
+                        </ol>
+                        <strong style="margin-left: -15px;">PROFESSIONAL LICENSE</strong>
+                        <ol style="margin-bottom: 10px;">
+                            <li>Visit the nearest LTO Branch in Davao City.</li>
+                            <li>Ask for a queue number, and submit an accomplished Application for Permits and License (APL) form and the other requirements once called.</li>
+                            <li>Accomplish the photo and signature capture.</li>
+                            <li>Once approved, proceed to the Cashier to pay the fees.</li>
+                            <li>Take the written and actual driving test. Suppose the applicant can pass the practical examination. In that case, they may proceed to the Cashier to pay fees and accomplish the required information for the Land Transportation Management System (LTMS).</li>
+                            <li>The applicant will receive an Official Receipt (OR) and Driver's License (DL) card.</li>
+                        </ol>
+                        <strong style="margin-left: -15px;">ONLINE REGISTRATION</strong>
+                        <ol>
+                            <li>Visit the LTMS portal at <a href="https://portal.lto.gov.ph/" target="_blank">https://portal.lto.gov.ph/</a>.</li>
+                            <li>Login using your email address and password or sign up to register for a new account.</li>
+                            <li>On your dashboard, click "Licensing".</li>
+                            <li>Click "accept" after reading the terms and conditions.</li>
+                            <li>Choose the license type you would like to apply for.</li>
+                            <li>Click "Add medical certificate" and click "Next".</li>
+                            <li>Verify your medical certificate number.</li>
+                            <li>If you wish to apply for a new license, click "New" or "Renewal" for the reapplication of the permit.</li>
+                            <li>Comply with the remaining information needed and finish the application.</li>
+                            <li>Book an online appointment and pay online.</li>
+                        </ol>
+                        <div style="margin-top: 10px;">
+                            <strong style="margin-left: -15px;">RENEWAL</strong>
+                            <p style="margin-left: -15px;">Renewal of license varies from the holder’s case and type of license. 
+                                There are two things that are required to secure, a 15-hour mandatory theoretical driving course (TDC) and an expired license. 
+                            </p>
+                        </div>
+                    </ol> 
+                </div>
+                <div class="photocont" style="height: 330px;">
+                    <h3 class="title" style="text-align: center;">SAMPLE DRIVER'S LICENSE</h3>
+                    <div class="slider" id="slider" style="width: 100%; height: 100%;">
+                        <img style="margin-left: 40px;" src="id photos/professional license.jpg" alt="PROFESSIONAL LICENSE">
+                        <img src="id photos/non professional license.png" alt="NON PROFESSIONAL LICENSE">
+                        <img style="margin-left: -20px;" src="id photos/student permit.jpg" alt="STUDENT PERMIT">
+                    </div>
+                    <button class="prev" onclick="prevSlide()">❮</button>
+                    <button class="next" onclick="nextSlide()">❯</button>
+                </div>
+                <div class="location" style="margin-top: -89px;">
+                    <h2 class="title" style="text-align: center; margin-bottom: -15px;">LOCATION</h2>
+                    <table>
+                        <tr>
+                            <th colspan="4">ACCREDITED SCHOOLS IN DAVAO CITY</th>
+                        </tr>
+                        <tr>
+                            <th>SCHOOL</th>
+                            <th>LOCATION</th>
+                            <th>CONTACT</th>
+                            <th>EMAIL</th>
+                        </tr>
+                        <tr>
+                            <td><a target=”_blank” href="https://maps.app.goo.gl/JrVns7n9T7ms59n48">Davao Institute of Technical Education, Inc. (DITE)</a></td>
+                            <td>488 Mc Arthur Highway, Matina Crossing, Davao City</td>
+                            <td>(082) 296 2132 / 0920 533 7204</td>
+                            <td>ditedavao@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td><a target=”_blank” href="https://maps.app.goo.gl/WDfEParJTnPUK7nY6">Good Sign Tutorial Driving Academy</a></td>
+                            <td>G/F #52 JM Bldg. Km 5, Buhangin, Davao City</td>
+                            <td>(082) 227 2140 / 0939 906 9670</td>
+                            <td>goodsigndriving@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td><a target=”_blank” href="https://maps.app.goo.gl/1itJJMgeaXD9K67P9">Ansuico Foundation Advance Technical School Inc.</a></td>
+                            <td>Km. 13, Brgy. Panacan, Davao City</td>
+                            <td>(082) 234 0361 / 0950 565 2997</td>
+                            <td>ansuicofoundation@gmail.com</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr><th colspan="4">LTO BRANCHES IN DAVAO CITY</th></tr>
+                        <tr>
+                            <th>Branch</th>
+                            <th>Location</th>
+                        </tr>
+                        <tr>
+                            <td><a target=”_blank” href="https://maps.app.goo.gl/to7fc1TuetDBDNAw7">Davao City North District Office</a></td>
+                            <td>LTO MVIS Compound Quimpo Boulevard, Davao City</td>
+                        </tr>
+                        <tr>
+                            <td><a target=”_blank” href="https://maps.app.goo.gl/to7fc1TuetDBDNAw7">Davao City South District Office</a></td>
+                            <td>LTO MVIS Compound Quimpo Boulevard, Davao City</td>
+                        </tr>
+                        <tr>
+                            <td><a  target=”_blank” href="https://maps.app.goo.gl/cYkxSkrqzm9JHuhb8">LTO Driver's License Renewal Office - Toril</a></td>
+                            <td>Ground Floor, Felcris Supermarket Toril, Crossing Bayabas, Davao City</td>
+                        </tr>
+                        <tr>
+                            <td><a  target=”_blank” href="https://maps.app.goo.gl/md1wjajAP8NxVwuK6">LTO Driver's License Renewal Office - Buhangin</a></td>
+                            <td>Gaisano Grand City Gate Mall, Buhangin, Davao City</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="requirement" style="margin-top: 10px; height: 2080px;">
+                    <h2>Qualifications for an LTO Driver's License Renewal</h2>
+                    <p>Application for plain and advanced renewal of your driver's license, regardless if you are in the Philippines or are working abroad as an OFW, requires you to meet certain eligibility criteria, including the following:</p>
+                    <ul class="text">
+                        <li>Must be a holder of active Driver's License or Driver's License that has expired but not for more than two (2) years</li>
+                        <li>Must be physically fit to operate a motor vehicle</li>
+                        <li>Must have sound mental faculties fit for operating a motor vehicle</li>
+                        <li>Must not have any unsettled traffic violation</li>
+                        <li>Must have completed the Driving Enhancement Program (DEP) prior to initial renewal of the five (5) years Driver's License</li>
+                        <li>For holders of Driver's License with accumulated five (5) to nine (9) demerit points: Must have completed the Driver's Re-orientation Course</li>
+                        <li>For holders of Driver's License with ten (10) or more but less than forty (40) demerit points: Must have completed the Driver/s Re-orientation Course and passed the Theoretical Examination</li>
+                        <li>For those whose Driver's License has been expired for more than two (2) years and/or with ten (10) or more but less than forty (40) Demerit Points: Must have passed the Automated Theoretical Examination and Practical Driving Test (For Driver's License), completed the Driver's Re-orientation Course, and passed the Theoretical Examination</li>
+                    </ul>
+                    <h2 style="text-align: center; margin-top: 10px;">REQUIREMENTS FOR RENWAL</h2>
+                    <h3 style="margin-top: 5px;">Plain Renewal</h3>
+                    <ul class="text">
+                        <li>Duly accomplished Application for Permits and Licenses (APL) Form</li>
+                        <li>Presentation of the original and submission of one (1) photocopy of the electronically transmitted medical certificate from any LTO-accredited medical clinic.</li>
+                        <li>Electronically Transmitted Certificate of Completion of Driving Enhancement Program (DEP) if applying for the renewal of a Driver's License with five (5) years validity for the first time</li>
+                        <li>Presentation of the original Driver's License, expired or otherwise</li>
+                        <li>For applicants with five (5) to nine (9) demerit points: Submission of Certificate of Completion of Driver's Re-orientation Course</li>
+                        <li>For applicants with ten (10) or more but less than forty (40) demerit points: Submission of Certificate of Completion of Driver's Re-orientation Course and proof of passing the Theoretical Examination</li>
+                        <li>For applicants with ten (10) or more but less than forty (40) demerit points and with Driver's License that has been expired for more than two (2) years: Submission of Certificate of Completion of Driver's Re-orientation Course and proof of passing the Automated Theoretical Examination</li>
+                    </ul>
+
+                    <h3 style="margin-top: 5px;">Advance Renewal</h3>
+                    <ul class="text">
+                        <li>Duly accomplished Application for Permits and Licenses (APL) Form</li>
+                        <li>Presentation of the original and submission of one (1) photocopy of the electronically transmitted medical certificate from any LTO-accredited medical clinic.</li>
+                        <li>Submission of electronically Transmitted Certificate of Completion of Driving Enhancement Program (DEP) for the initial renewal of LTO Driver's License with five (5) years validity</li>
+                        <li>Presentation of original Driver's License, expired or otherwise</li>
+                        <li>For applicants with five (5) to nine (9) demerit points: Submission of Certificate of Completion of Driver's Re-orientation Course</li>
+                        <li>For applicants with ten (10) or more but less than forty (40) demerit points: Submission of Certificate of Completion of Driver's Re-orientation Course and proof of passing the Theoretical Examination</li>
+                        <li>Plane ticket</li>
+                    </ul>
+                    <h3 style="margin-top: 5px;">Renewal of Driver's License of OFW and Filipinos Living Abroad</h3>
+                    <h4>Initial Requirements (for temporary driver's license application through a representative)</h4>
+                    <ul class="text">
+                        <li>Presentation of original Letter of Authority of authorized representative allowing him or her to renew and claim Driver's License</li>
+                        <li>One (1) photocopy of the passport's first page, visa page, and departure from the Philippines as well as the latest arrival overseas</li>
+                        <li>Photocopy of Driver's License</li>
+                        <li>Photocopy of Driver's License Receipt (if available)</li>
+                    </ul>
+
+                    <h4>Additional Requirements (upon the license holder's arrival in the Philippines)</h4>
+                    <ul class="text">
+                        <li>Drug test result</li>
+                        <li>Presentation of the original and submission of one (1) photocopy of the TIN or TIN Card</li>
+                        <li>Duly accomplished Application for Permits and Licenses (APL) Form</li>
+                        <li>The license applicant shall present himself/herself within 30 days upon arrival to the same office where the renewal was made for photo-taking and for the submission of the following documents:</li>
+                        <li>Presentation of the original and submission of one (1) photocopy of the electronically transmitted medical certificate from any LTO-accredited medical clinic.</li>
+                        <li>Presentation of the original and submission of one (1) photocopy of the passport's first and arrival pages</li>
+                        <li>Presentation of original Official Receipt (OR) which serves as temporary Driver's License</li>
+                        <li>Submission of the electronically transmitted Certificate of Completion of Driving Enhancement Program (DEP) for the initial renewal of the driver's license with five (5) years validity</li>
+                        <li>For applicants with five (5) to nine (9) demerit points: Submission of Certificate of Completion of Driver's Re-orientation Course</li>
+                    </ul>
+                    <h3 style="margin-top: 5px;">Renewal of Driver's License with Examination [For those whose DL has expired for more than two (2) years and/or with ten (10) or more but less than forty (40) Demerit Points]</h3>
+                    <ul class="text">
+                        <li>Duly accomplished Application for Permits and Licenses (APL) Form</li>
+                        <li>Presentation of the original and submission of one (1) photocopy of the electronically transmitted medical certificate from LTO accredited medical clinic</li>
+                        <li>Presentation of original delinquent Driver's/Conductor's License</li>
+                    </ul>
+                </div>
+                <div class="procedure" style="height: auto; margin-top: 10px;">
+                    <h2 style="text-align: center;">PROCEDURE</h2>
+                    <h3>In-Person Renewal at LTO Office</h3>
+                    <p style="margin-left: -15px;">To renew your LTO driver's license at the nearest LTO office, you may follow the steps below:</p>
+
+                    <ol>
+                        <li>
+                        <p>Step 1: Requests and accomplish the Application for Driver's License (ADL) form</p>
+                        <ul style="margin: 15px; margin-top: 0px; margin-bottom: 0px;">
+                            <li>Get the queue number and wait for your turn.</li>
+                            <li>Secure an Application for a Driver's License (ADL) form.</li>
+                            <li>Accomplish the Application for Driver's License (ADL) form.</li>
+                        </ul>
+                        </li>
+                        <li>
+                        <p>Step 2: Submit the accomplished ADL form along with the requirements and the queue number.</p>
+                        </li>
+                        <li>
+                        <p>Step 3: Proceed to the Cashier for payment of fees.</p>
+                        </li>
+                        <li>
+                        <p>Step 4: Take written examination</p>
+                        <ul style="margin: 15px; margin-top: 0px; margin-bottom: 0px;">
+                            <li>If failed, receive the computer-generated letter of the results and come back on another day to retake the exam.</li>
+                            <li>If passed, proceed to the actual driving test.</li>
+                        </ul>
+                        </li>
+                        <li>
+                        <p>Step 5: Take the actual driving test</p>
+                        <ul style="margin: 15px; margin-top: 0px; margin-bottom: 0px;">
+                            <li>If failed, come back on another day to re-apply for a license renewal.</li>
+                            <li>If passed, proceed to the cashier for payment of fees.</li>
+                            <li>Proceed to the encoding and biometric window to accomplish the form for encoding of complete details in the new LTO-IT system.</li>
+                            <li>Wait for the Official Receipt (OR) and the Driver's License (DL) Card.</li>
+                        </ul>
+                        </li>
+                        <li>
+                        <p>Step 6: Signs in the log sheet.</p>
+                        </li>
+                    </ol>
+
+                    <h3>Online Renewal via the LTO LTMS Portal</h3>
+                    <p style="margin-left: -15px;"> Renewing your driver's license online is possible but you need an LTMS portal online account. The following guides will teach you how to register at LTMS and renew your driver's license through the LTMS portal.</p>
+
+                    <h4 style="margin-left: -15px;">Part I: LTMS Registration</h4>
+                    <ol>
+                        <li>Step 1: Visit the Land Transport Management System (LTMS) portal homepage at <a href="https://portal.lto.gov.ph">https://portal.lto.gov.ph</a>.</li>
+                        <li>Step 2: Click "Register now."</li>
+                        <li>Step 3: Read the Terms of Agreement, and click the check box that says "Yes, I Accept."</li>
+                        <li>Step 4: Enter the security code.</li>
+                        <li>Step 5: Click "Next."</li>
+                        <li>Step 6: Choose your type of registrant according to your profile. Select "Enroll as an individual" when asked for the type of registration.</li>
+                        <li>Step 7: Select "Yes" when asked if you already have a Philippine driver's license. Provide the following information to complete the registration process:</li>
+                        <ul style="margin: 15px; margin-top: 0px; margin-bottom: 0px;">
+                            <li>Driver's/conductor's license number</li>
+                            <li>Expiry date</li>
+                            <li>Official receipt number (or mother's maiden name if you no longer have your receipt)</li>
+                            <li>Confirm your nationality (Filipino or otherwise), then, click "Next."</li>
+                            <li>For alien residents: provide the following details:</li>
+                            <ul style="margin: 15px; margin-top: 0px; margin-bottom: 0px;">
+                                <li>Alien Certificate of Registration (ACR) number</li>
+                                <li>Expiry date</li>
+                                <li>Nationality Click "Next."</li>
+                            </ul>
+                            <li>Enter your contact information (email address and mobile number) and submit.</li>
+                        </ul>
+                        <li>Step 8: Visit your inbox for the verification link.</li>
+                        <li>Step 9: Click the verification link and complete the following required information:</li>
+                        <ul style="margin: 15px; margin-top: 0px; margin-bottom: 0px;">
+                            <li>Emergency contact</li>
+                            <li>Medical information</li>
+                            <li>General information</li>
+                            <li>Address</li>
+                        </ul>
+                        <li>Step 10: Once done, the portal will assign a 15-digit number that will serve as your username.
+                            If you already have an LTMS account, then you can skip the registration part and start directly with your driver's license renewal.
+                        </li>
+                        <h3>Part II: Online Driver's License Renewal via the LTMS</h3>
+                        <p>Once you have an LTMS account and the required documents (including the CDE certificate), you can renew your driver's license via the LTMS. Here are the steps you have to follow:</p>
+                      
+                        <ol>
+                          <li>Step 1: Login into the LTMS online portal using your account email address or the 15-digit LTO client number provided to you and your nominated password.</li>
+                          <li>Step 2: Select Licensing in the LTMS dashboard.</li>
+                          <p>Note: If your LTMS account is newly registered, clicking on Licensing will direct you to a form where you need to enter your personal information to complete your profile. After filling out the form, you will be redirected to the dashboard, and you should see a notification showing that your profile has been saved. Just click Licensing again to continue.</p>
+                          <li>Step 3: Read and accept the LTMS Terms of Use by clicking the blue Accept button.</li>
+                          <li>Step 4: On the Online Application form, select Driver's License as the License Classification.</li>
+                          <p>Note: Don't click the Next button because you will have to provide a medical certificate first before proceeding to the renewal process.</p>
+                          <li>Step 5: Instead, click Add Medical Certificate and key in your Medical Certificate Number. Then, click Verify.</li>
+                          <li>Step 6: Select Renewal as the type of application, then, click Next.</li>
+                          <li>Step 7: Select your preferred appointment schedule and LTO Office.</li>
+                          <li>Step 8: Pay the applicable renewal fees through your preferred payment channel.</li>
+                          <li>Step 9: Proceed to your selected LTO Office on your appointment date.</li>
+                          <p>Note: Although you have already processed your driver's license renewal application online via the LTMS portal, you will still need to go to the LTO office on your appointment date.</p>
+                        </ol>
+                      
+                        <h3>How to Renew Driver's License for OFWs or Filipinos Living Abroad</h3>
+                        <p>If the OFW or his/her authorized representative is within Metro Manila, the OFWs can have their Driver's License renewed at the LTO License Section Central/ Office. Otherwise, renewal applications can be processed at any LTO District Offices or Licensing Centers.</p>
+                      
+                        <h4>Renewal Application through a Representative</h4>
+                        <ol>
+                          <li>Step 1: Head to the customer service counter of your preferred LTO Office and get the Driver's License Application Form (which you may also download online), the checklist of requirements, and a queue number and wait.</li>
+                          <li>Step 2: Go to the Evaluator Counter and submit all the initial requirements to be checked for completeness and authenticity.</li>
+                          <li>Step 3: The representative should head to the cashier to pay the corresponding fees.</li>
+                          <li>Step 4: Head to the Releasing Counter and get the Driver's License Receipt which will serve as the OFW's temporary Driver's License.</li>
+                        </ol>
+                        <h4>Completing the OFW Renewal Application</h4>
+                        <ol>
+                          <li>Upon returning to the country, the OFW applicant is expected to visit the LTO Office where the license renewal was processed within 30 days upon arrival.</li>
+                          <li>Step 1: Visit the LTO office where the representative applied for license renewal within 30 days after arriving in the country.</li>
+                          <li>Step 2: Submit the additional requirements.</li>
+                          <li>Step 3: Go to the photo-taking and signature area and wait for your turn.</li>
+                          <li>Step 4: Head to the Releasing Counter and present the Driver's License Official Receipt to claim your License Card.</li>
+                          <li>Step 5: Log your name and affix your signature on the Release Form.</li>
+                        </ol>
+                        <p>Driver's license holders may renew their licenses as early as 60 days prior to the expiry date. But, if you want to apply for a renewal as early as 61 days to 1 year before your license expires, you will need to submit proof that you will be out of the country by the time your license expires.</p>
+                        <ol>
+                            <li>Step 1: Visit any Licensing Centers or District Offices with Driver's License transactions.</li>
+                            <li>Step 2: Head to the customer service counter and get the Driver's License Application Form, checklist of requirements, and queue number and wait for your turn.</li>
+                            <li>Step 3: Go to the Evaluator Counter and submit all the needed requirements to be evaluated for completeness and authenticity.</li>
+                            <li>Step 4: Head to the photo-taking and signature area and wait for your turn.</li>
+                            <li>Step 5: Go to the cashier, pay for the required fees, and get the Official Receipt (OR) when called.</li>
+                            <li>Step 6: Proceed to the Releasing Counter and present the Official Receipt (OR) to claim your License Card.</li>
+                            <li>Step 7: Write your name and affix your signature on the Release Form.</li>
+                        </ol>
+                </div>
+                <div class="requirement" style="margin-top: -545px; height: 545px;">
+                    <h2 style="margin-bottom: -10px;">Driver's License Renewal Fees</h2>
+                    <table style="width: 100%; margin-left: -10px;">
+                        <tr>
+                            <th style="width: 60%;">Renewal Type</th>
+                            <th>License Fee</th>
+                            <th>Penalty</th>
+                            <th>Application Fee</th>
+                            <th>Total</th>
+                        </tr>
+                        <tr>
+                            <td>One (1) Day to One (1) Year Expired DL</td>
+                            <td>P 585.00</td>
+                            <td>P 75.00</td>
+                            <td></td>
+                            <td>P 660.00</td>
+                        </tr>
+                        <tr>
+                            <td>Renewal of More than One (1) Year to Two (2) Years Expired DL</td>
+                            <td>P 585.00</td>
+                            <td>P 150.00</td>
+                            <td></td>
+                            <td>P 735.00</td>
+                        </tr>
+                        <tr>
+                            <td>Renewal of DL Expired for More than Two (2) Years</td>
+                            <td>P 585.00</td>
+                            <td>P 225.00</td>
+                            <td>P 100.00</td>
+                            <td>P 910.00</td>
+                        </tr>
+                        <tr>
+                            <th colspan="5">Other Fees</th>
+                        </tr>
+                        <tr>
+                            <td>Change Classification fee</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>P 100.00</td>
+                        </tr>
+                        <tr>
+                            <td>Additional Restriction Code (ARC)<br><div style="font-size: 10px;">Note: The Change Classification fee only applies if you wish to change a Valid Non- Professional Driver's License (NPDL) 
+                                to Professional Driver's License (PDL), a valid Professional Driver's License (PDL) to a Non-Professional Driver's License (NPDL), or an Expired NPDL to PDL / PDL 
+                                to NPDL</div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>P 100.00</td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+            <div style="margin-top: 20px;">
+                <h3 style="text-align: left; margin-bottom: 5px;">RELATED LINKS AND RESOURCES</h3> <hr>
+                <ul class="text" style="list-style: none;">
+                  <li style="margin-bottom: 5px; margin-top: 5px;"><a target="_blank" href="https://ltoportal.ph/lto-drivers-license/#Online_via_the_LTMS_Portal">How To Get LTO Driver's License in the Philippines</a></li>
+                  <li style="margin-bottom: 5px; margin-top: 5px;"><a target="_blank" href="https://www.globe.com.ph/go/travel-food/article/lto-philippines-drivers-license-how-to-apply-renew.html">Getting Your LTO Philippines Driver’s License: How to Apply or Renew</a></li>
+                  <li style="margin-bottom: 5px; margin-top: 5px;"><a target="_blank" href="https://media-transformation.canva.com">Sample Non-Professional License</a></li>
+                  <li style="margin-bottom: 5px; margin-top: 5px;"><a target="_blank" href="https://digido.ph">Sample Student Permit</a></li>
+                </ul>
+            </div>
+            <div class="container3">
+                <a class="comment-title">Comment Section</a>
+                <template class="reply-input-template">
+                    <div class="reply-input container">
+                      <img src="https://images.freeimg.net/thumbs/profile-2398782_1280.png" alt="" class="usr-img">
+                      <textarea class="cmnt-input" placeholder="Add a comment..."></textarea>
+                      <button class="bu-primary">SEND</button>
+                    </div>
+                  </template>
+                
+                  <template class="comment-template">
+                    <div class="comment-wrp">
+                      <div class="comment container">
+                        <div class="c-controls">
+                          <a  class="delete"><img src="images/icon-delete.svg" alt="" class="control-icon">Delete</a>
+                          <a  class="edit"><img src="images/icon-edit.svg" alt="" class="control-icon">Edit</a>
+                          <a  class="reply"><img src="images/icon-reply.svg" alt="" class="control-icon">Reply</a>
+                        </div>
+                        <div class="c-user">
+                          <img src="https://images.freeimg.net/thumbs/profile-2398782_1280.png" alt="" class="usr-img">
+                          <p class="usr-name">roslyn123</p>
+                          <p class="cmnt-at">1 year ago</p>    
+                        </div>
+                        <p class="c-text">
+                          <span class="reply-to"></span>
+                          <span class="c-body"></span>
+                        </p>
+                      </div><!--comment-->
+                      <div class="replies comments-wrp">
+                      </div><!--replies-->
+                    </div>
+                  </template>
+                <main>
+                  <div class="comment-section">
+                
+                    <div class="comments-wrp">
+                
+                    </div> <!--commentS wrapper-->
+                  <div class="reply-input container">
+                      <img src="https://images.freeimg.net/thumbs/profile-2398782_1280.png" alt="" class="usr-img">
+                      <textarea class="cmnt-input" placeholder="Add a comment..."></textarea>
+                      <button class="bu-primary">SEND</button>
+                    </div> <!--reply input-->
+                  </div> <!--comment sectio-->
+                  
+                  <div class="modal-wrp invisible">
+                    <div class="modal container">
+                        <h3>Delete comment</h3>
+                        <p>Are you sure you want to delete this comment? This will remove the comment and cant be undone</p>
+                        <button class="button2" id="yes">DELETE</button>
+                        <button class="button2" id="no">CANCEL</button>
+                    </div>
+                  </div>
+                </main>
+            </div>
+        </div>
+        </section>
+              <!-- Outer container for the table -->
+      <div class="container5">
+        <div class="table-container">
+    
+            <!-- Row 1 -->
+            <div class="table-row1">
+                <div class="table-cell">Visit Us</div>
+                <div class="table-cell">Contact Us</div>
+                <div class="table-cell">Services</div>
+                <div class="table-cell">About Us</div>
+                <div class="table-cell">Socials</div>
+            </div>
+    
+            <!-- Row 2 -->
+            <div class="table-row">
+                <div class="table-cell">University of the Philippines Mindanao</div>
+                <div class="table-cell">Email Address:<br><a href="#">artsolutions@gmail.com</a></div>
+                <div class="table-cell"><a href="../Index/index.html#services1">Document Acquisition Guidelines</a></div>
+                <div class="table-cell"><a href="../Index/about_us.html">Who are we?</a></div>
+                <div class="table-cell"><a href="#">Facebook</a><br><a href="https://twitter.com/ART_Solutions23">Twitter</a></div>
+            </div>
+    
+            <!-- Row 3 -->
+            <div class="table-row">
+                <div class="table-cell">Tugbok, Davao City</div>
+                <div class="table-cell">Phone:</div>
+                <div class="table-cell"><a href="../Index/index.html#services2">Agency Directory</a></div>
+                <div class="table-cell"></div>
+                <div class="table-cell"></div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell">8000 Philippines</div>
+                <div class="table-cell">0912 345 6789</div>
+                <div class="table-cell"><a href="../Index/index.html#services3">Group Discussion</a></div>
+                <div class="table-cell"></div>
+                <div class="table-cell"></div>
+            </div>
+            </div>
+            <button id="scrollToTopBtn">&#9650;</button>
+        </div>
+            <footer>
+                <p>&copy; 2023 <i>ART Solutions. All rights reserved.</i></p>
+            </footer>
+        <script src="../Index/script.js"></script>
+</body>
+</html>
